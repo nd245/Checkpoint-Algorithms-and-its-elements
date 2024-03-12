@@ -1,0 +1,33 @@
+
+    //count word//
+BEGIN
+VAR
+    str:STRING
+    count:INTEGER:=0
+    write("insert a phrase")
+    FOR (i=0 ,i<=str.lenght() ,i++ ) DO
+        IF (str[i]="") THEN
+            count++
+        END_IF
+    write(count)
+    END_FOR
+
+    //number of vowls//
+    VAR
+    vow:=("a","e","i","o","y","u")
+    count:INTEGER:=0
+    BEGIN
+
+    if (str[i]:=vow) THEN
+    count++
+END_IF
+END
+      //number of character//
+    str:STRING
+    count:=1
+        FOR (i=0 ,i<=str.lenght() ,i++ ) DO
+        IF (str[i]="") THEN
+            count++
+            write(count)
+            END_IF
+END
